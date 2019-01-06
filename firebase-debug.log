@@ -1,0 +1,25 @@
+[debug] [2019-01-01T15:47:15.166Z] ----------------------------------------------------------------------
+[debug] [2019-01-01T15:47:15.169Z] Command:       /usr/local/bin/node /Users/Cams/.npm-global/bin/firebase init
+[debug] [2019-01-01T15:47:15.169Z] CLI Version:   6.2.2
+[debug] [2019-01-01T15:47:15.169Z] Platform:      darwin
+[debug] [2019-01-01T15:47:15.169Z] Node Version:  v10.15.0
+[debug] [2019-01-01T15:47:15.170Z] Time:          Tue Jan 01 2019 23:47:15 GMT+0800 (Philippine Standard Time)
+[debug] [2019-01-01T15:47:15.170Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-01T15:47:15.179Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-01T15:47:15.179Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Cams/Documents
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
