@@ -7,7 +7,7 @@ var pass=0;
 var slot ="";
 var firebaseRef = firebase.database().ref();
 var provider = new firebase.auth.GoogleAuthProvider();
-Boolean=true;
+
 var pass=0;
 
 function playerOne(){
