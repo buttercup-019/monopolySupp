@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+      <meta charset="utf-8"/> 
+      <link rel="stylesheet" href="main.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    </head>
+    <body>
+            <h2>Login Form</h2>
+            <div id="container">
+            <div id ="main">
+              <div class="imgcontainer">
+                <img src="star.png" alt="Avatar" class="avatar">
+              </div>
+            
+              <div class="container">
+                <label id="uname"><b>Username</b></label>
+                <input id="uName"type="text" placeholder="Enter Username" required>
+            
+                <label><b>Passcode</b></label>
+                <input id ="pCode"type="text" placeholder="Enter Password" required>
+                 <button onclick="submitClick()">Log In</button>   
+                 <form action="" id="form">
+                  <input type="radio" name="gender" value=1 onclick="playerOne()"/> 1
+                  <input type="radio" name="gender" value=2 onclick="playerTwo()"/> 2
+                  <input type="radio" name="gender" value=3 onclick="playerThree()"/> 3
+                  <input type="radio" name="gender" value=1 onclick="playerFour()"/> 4
+                  <input type="radio" name="gender" value=2 onclick="playerFive()"/> 5
+                  <input type="radio" name="gender" value=3 onclick="playerSix()"/> 6
+                  <input type="radio" name="gender" value=1 onclick="playerSeven()"/> 7
+                  <input type="radio" name="gender" value=2 onclick="playerEight()"/> 8
+                </form> 
+                <!--button id="onClick()">Log in</button-->
+                <label>
+                  <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+              </div>
+            
+              <div class="container" style="background-color:#f1f1f1">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <!--span class="psw">Forgot <a href="#">password?</a></span-->
+              </div>
+            </div>
+          </div>
+          <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script> 
+          <script>
+              // Initialize Firebase
+              var config = {
+              apiKey: "AIzaSyAp6_ddh_BqOUEyhJ4tqz-AhpKTNI48IJM",
+              authDomain: "monopolysupp-1.firebaseapp.com",
+              databaseURL: "https://monopolysupp-1.firebaseio.com",
+              projectId: "monopolysupp-1",
+              storageBucket: "monopolysupp-1.appspot.com",
+              messagingSenderId: "1029823997382",
+              };
+              firebase.initializeApp(config);
+          </script>    
+          <!-- Firebase App is always required and must be first -->
+
+  
+  
+        <!-- Comment out (or don't include) services that you don't want to use -->
+        <!-- <script src="/__/firebase/5.7.0/firebase-storage.js"></script> -->
+  
+          
+        <script src="index.js"></script>  
+          <!-- Firebase App is always required and must be first -->
+            
+    </body>
+</html>
